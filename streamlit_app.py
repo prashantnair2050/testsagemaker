@@ -24,7 +24,7 @@ if st.button("Predict Profit"):
 
     # Set up predictor
     predictor = Predictor(
-        endpoint_name=ENDPOINT_NAME,
+        endpoint_name="linear-learner-2025-05-05-17-55-55-189",
         serializer=CSVSerializer(),
         deserializer=JSONDeserializer()
     )
